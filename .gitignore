@@ -7,6 +7,6 @@ Makefile
 
 ## BUILD OUTPUT
 kernel
-build/*
+build
 *.o
 *.so
