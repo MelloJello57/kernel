@@ -1,0 +1,5 @@
+Kernel for the (soon to be) os project.
+
+The kernel is aimed to be an extremely portable and modular microkernel to go along with an operating system that follows suit.
+
+It is also aimed to be fully POSIX compliant and not only can the microkernel itself be easily replaced but the inner components (memory allocator, IPC, etc.) can also be swapped out with little to no difficulty
