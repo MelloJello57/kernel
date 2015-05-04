@@ -10,3 +10,7 @@ kernel
 build
 *.o
 *.so
+
+## TEXT EDITOR
+*~
+

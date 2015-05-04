@@ -1,19 +1,8 @@
 # CMakeLists.txt
-#
-# Copyright (C) 2015  Michael Wyatt
-#
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU General Public License as published by
-# the Free Software Foundation, either version 3 of the License, or
-# (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>
 
-cmake_minimum_required (2.8.12.2)
-project (kernel)
+cmake_minimum_required (2.8)						# Set the required version of CMake to complete the build
+project (kernel)							# Tell CMake the name of the project
+
+# Set required build flags
+set(CMAKE_CXX_FLAGS "-ffreestanding -fno-rtti -O2")			# Tell compiler we need it to be freestanding and we don't need a runtime environment
+
